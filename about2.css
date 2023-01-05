@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+/* To remove side scroll */
+body {
+    /* hides x scroll bar */
+    overflow-x: hidden;
+    color:#000000;
+}
+/* Container */
+.container {
+    position: absolute;
+}
+  
+/* Text */
+.text1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 43px;
+    position: absolute;
+    top: 275px;
+    left: 482px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Text 2 */
+.text2 {
+    font-family: 'PT Serif Caption', serif;
+    font-size: 100px;
+    position: absolute;
+    left: 480px;
+    top: 310px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* Home Button */
+.home{
+    position: absolute;
+    margin-left: 94%;
+    margin-top: 2%;
+    width: 2.5%;
+}
+/* Box Border*/
+.box{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1150px;
+    height: 1525px;
+    left: 160px;
+    top: 133px;
+    
+
+    border: 6px solid #000000;
+    border-radius: 20px;
+}
+/* To put space below box border */
+.square {
+    padding-top:110%;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+/* First Text*/
+.About1{
+    position: absolute;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 53px;
+    top: 1040px;
+    left: 500px;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+}
+/* This is the about text of the page*/
+.About2{
+    position: absolute;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 23px;
+    top: 170px;
+    left: -220px;
+    color: black;
+    width: 200%;
+    text-align: center;
+    line-height: 1.8;
+}
+.opacity{
+    color: black;
+}
+/* Picture inside about */
+.aboutimage{
+    position: absolute;
+    height: 276px;
+    left: 190px;
+    top: 420px;
+    text-align: justify;
+}
+/* This block of code is for the first button*/
+.Btn1{
+    position: absolute;
+    background-color: #7e020c;
+    border:none;
+    border-radius: 65px;
+    transition: 0.7s;
+    top: 380px;
+    left: 480px;
+    height: 60px;
+    width: 60px;
+}
+/* When hovering at the button it will change color*/
+.Btn1:hover{
+    background-color: rgb(74, 0, 0);
+}
+/* This is for the second button*/
+.Btn2{
+    position: absolute;    
+    background-color: #969696;
+    border:none;
+    border-radius: 65px;
+    transition: 0.7s;
+    top: 380px;
+    left: 380px;
+    height: 60px;
+    width: 60px;
+}
+/* Hovering on the button will change its color*/
+.Btn2:hover{
+    background-color: rgb(107, 107, 107);
+}
+.audition{
+    position: absolute;
+    background-color: rgb(135, 29, 29);
+    border:none;
+    border-radius: 65px;
+    transition: 0.7s;
+    top: 280px;
+    left: 350px;
+    height: 60px;
+    width: 220px;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 20px;
+}
+.audition:hover{
+    background-color: rgb(91, 21, 21);
+}

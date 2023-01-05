@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="video.css">
+        
+    </head>
+    <title>FreaKING</title>
+    
+    <body>
+        <!-- this is for the video api -->
+        <video id="video"></video>
+        <!-- this is for the bg image -->
+        <img src="images/audition.png">
+        <!-- home icon -->
+        <div class="home">
+            <a href="index.html">
+            <img src="images/home.png" style="width:100%;">
+            </a>
+        </div>
+        <!-- to record the video -->
+        <div class="record">
+            <button id="record" onclick="record()">record</button>
+            <button id="stop" onclick="stop()">stop</button>
+            <button id="audio">
+                <a href="audio.html"> Proceed to Audio Record </a>
+            </button>
+            <!-- short instruction for the user -->
+            <div class="auditiontext">
+                <p><b><Center>Instruction</Center></b><br><br> RECORD your audition video and press STOP once you're done recording
+                    and <br><br><br>you'll be directed to your recorded video and be given an option to 
+                    download the video. <br><br><br>Send the downloaded video to our email at freaKING@gmail.com.
+                </p>
+            </div>
+        </div>
+        
+        <!-- this is where the preview that the user recorded -->
+        <div class="recordedVidBG">
+            <div id="recordedVid"></div>        
+        </div>
+
+        <!-- this calls the js file and its' functions -->
+        <script src="java/video.js"></script>
+    </body>
+</html>

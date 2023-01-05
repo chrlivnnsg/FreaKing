@@ -1,0 +1,40 @@
+/* background image*/
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+/* Main Title of the Page*/
+h1{
+    color:white;
+    font-size: 150px;
+    font-family: 'PT Serif Caption', serif;
+    margin-left: 380px;
+    margin-top: 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 700px;
+    height: 180px;
+    border-radius:10px ;
+}
+/* The main text for the first page*/
+.Maintxt{
+    color:white;
+    font-size: 30px;
+    font-family: 'PT Serif Caption', serif;
+    margin-left: 380px;
+    margin-top: -50px;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 700px;
+    height: 400px;
+    border-radius:10px ;
+}
+/*homepage icon*/
+.home{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -670px;
+    width: 2.5%;
+}
